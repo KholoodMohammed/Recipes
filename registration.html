@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="csspro.css"/>
+
+<script type="text/javascript" src="chkpassword.js"></script>
+<title> Registration </title>
+</head>
+<body>
+
+<nav>
+<ul class="navigation">
+<li class="navig"> <a class="navelink" href="../home page.html">home page</a> </li>
+<li class="navig"> <a class="navelink" href="Menu.html">menu</a> </li>
+<li class="navig"> <a class="navelink" <a class="home_mnue" href="log in.html">log in</a> </li>
+</ul>
+</nav>
+
+<center>
+
+<h1  class="menu_title">Registration</h1>
+
+
+<form   id="myform" method="post" action="">
+
+    
+      <h2 class="Account">Create Account</h2>
+
+
+     <label for="name">User name:</label>
+     <input type="text" id="name" name="name" required><br><br>
+	 <label for="e-mail">E-mail:</label>
+	 <input type="email" id="e-mail" name="e-mail" placeholder="user123@gmail.com" required><br><br>
+	 <label for="Password">Password:</label>
+     <input type="password" id="Password"  required><br><br>
+	 <label for="Passwordverification">Password verification:</label>
+     <input type="password" id="Passwordverification"  required><br><br>
+	 <label for="male">Gender</label>
+	 <input type="radio" id="male" name="gender" value="male">
+	 <label for="male">male</label>
+	 <input type="radio" id="female" name="gender" value="female">
+	 <label for="female">female</label><br><br>
+
+   <input type="submit" value="submit" onclick="chkPasswords();"  />
+    </form>
+
+	
+
+</center>
+
+</body>
+</html>
+
+
+
